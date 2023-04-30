@@ -17,8 +17,8 @@ Search: <input ng-model="user">
             <label ng-show="showLabel" style="float:left;">{{user.username}}</label> <input type="text" ng-show="showEdit" ng-model="user.username"/>
             <label ng-show="showLabel" style="float:left;">{{user.password}}</label> <input type="text" ng-show="showEdit" ng-model="user.password"/>
             <label ng-show="showLabel" style="float:left;">{{user.email}}</label> <input type="text" ng-show="showEdit" ng-model="user.email"/>
-            <button class="btn btn-primary" ng-click="update()" ng-show="showEdit">수정</button>
-            <button class="btn btn-danger" style="margin-left:10px;" ng-click="remove()">삭제</button>
+            <button class="btn btn-primary" ng-click="update()" ng-show="showEdit">Update</button>
+            <button class="btn btn-danger" style="margin-left:10px;" ng-click="remove()">Remove</button>
         </div>
     </li>
 </ul>
